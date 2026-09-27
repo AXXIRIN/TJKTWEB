@@ -89,43 +89,37 @@ li a:hover {
 
 
 /*hero*/
-.glass-card {
-  clear: both;
-  float: left;
+.tkjcard {
   margin-left: 20px;
   height: 190px;
   max-height: 190px;
   width: 40%;
   max-width: 400px;
-  background-color: #234C6A20;
-  border-radius: 35px;
-  padding: 24px;
-  overflow: hidden;
-  scrollbar-width: none;
-  display: block;
   text-align: left;
-
-  /* GLASS FILTER */
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1.5px solid rgba(255, 255, 255, 0.15);
-    box-shadow:
-    0px 8px 20px rgba(0, 0, 0, 0.5),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
-.glass-card h1 {
+.tkjcard h1 {
   color: #E3E3E334;
   overflow: hidden;
 }
 
-.glass-card p {
+.tkjcard p {
   color: #E3E3E3;
   padding-top: 20px;
-  overflow-y: auto;
   height: 120px;
   font-family: "PlayFair Display";
 }
-
+.tkjcard span {
+  animation: kedip 0.7s infinite;
+  margin-left: 3px;
+}
+@keyframes kedip {
+  0%, 50% {
+    opacity: 0;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
  h1, h2, h3, h4, h5, h6, p, a {
   text-decoration: none !important;
 }
