@@ -60,7 +60,7 @@ li {
   height: 30px;
   width: 100%;
   text-align: center;
-  padding-top: 24px;
+  padding-top: 20px;
   padding-right: 24px;
   border-radius: 5px;
   display: flex;
@@ -79,6 +79,8 @@ li a {
   color: #E3E3E3;
   -webkit-tap-highlight-color: transparent;
   transition: 0.2s ease-in-out;
+  -webkit-user-select: none;
+  padding-top: 0;
 }
 
 li a:hover {
@@ -90,35 +92,26 @@ li a:hover {
 
 /*hero*/
 .tkjcard {
-  margin-left: 20px;
+  padding-top: 30px;
+  padding-left: 25px;
   height: 190px;
   max-height: 190px;
-  width: 40%;
   max-width: 400px;
-  text-align: left;
+  align-items: flex-start;
+  -webkit-user-select: none;
 }
 .tkjcard h1 {
   color: #E3E3E334;
-  overflow: hidden;
+  text-align: left;
+  padding-left: 0;
 }
 
 .tkjcard p {
   color: #E3E3E3;
-  padding-top: 20px;
+  padding-top: 10px;
   height: 120px;
   font-family: "PlayFair Display";
-}
-.tkjcard span {
-  animation: kedip 0.7s infinite;
-  margin-left: 3px;
-}
-@keyframes kedip {
-  0%, 50% {
-    opacity: 0;
-  }
-  51%, 100% {
-    opacity: 0;
-  }
+  padding-left: 0;
 }
  h1, h2, h3, h4, h5, h6, p, a {
   text-decoration: none !important;
